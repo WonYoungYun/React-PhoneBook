@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Create React App으로 만든 Phone Book
 
-## Available Scripts
+[여기](https://wonyoungyun.github.io/React_movieApp/)를 통해 결과물 확인 가능
 
-In the project directory, you can run:
+## 실행방법
 
-### `npm start`
+해당 repsoitory의 파일을 다운로드 합니다.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `npm install`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+npm install을 통해 필요한 node_modules를 설치합니다.
 
-### `npm test`
+## `npm start`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start를 통해 실행 할 수 있습니다.
 
-### `npm run build`
+# 앱에 관한 내용
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Youtube](https://www.youtube.com/watch?v=fT9iFFAt60E&list=PL9FpF_z-xR_E4rxYMMZx5cOpwaiwCzWUH) 김민준님의 강의를 보면서 만들었습니다.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- 이름과 전화번호를 입력하여 저장합니다.
+- 입력한 정보는 수정버튼과 삭제버튼을 통해 수정과 삭제가 가능합니다.
+- 선택항목을 통해 휴대전화인지 집전화인지 선택이 가능합니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- 이름과 전화번호 선택항목 중 하나라도 하지 않으면 등록이 불가능합니다.
+- styled-components를 사용하여 CSS를 적용하였습니다.
