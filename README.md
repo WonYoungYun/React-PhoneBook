@@ -1,6 +1,6 @@
 # Create React App으로 만든 Phone Book
 
-[여기](https://wonyoungyun.github.io/React_movieApp/)를 통해 결과물 확인 가능
+[여기](http://WonYoungYun.github.io/React-PhoneBook)를 통해 결과물 확인 가능
 
 ## 실행방법
 
